@@ -1,0 +1,34 @@
+.hero {
+    height: 100vh;
+    background-image: url("wp-content/themes/jewellery/src/assets/images/Kennett-home-1600x700.jpg");
+    background-color: grey
+}
+
+.welcome {
+    text-align: center;
+    padding-top: 80px
+}
+
+
+.History, .Temporary, .Current {
+    display: flex;
+    padding: 30px;
+}
+
+.about {
+    padding: 120px;
+}
+
+.about img {
+    height: 500px;
+    width: auto
+}
+
+.info {
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.footer-container {
+    background-color: grey;
+}

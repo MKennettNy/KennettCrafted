@@ -53,10 +53,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-/*
-  My custom styles:
-  Add your scss files below to structure your project styles
-*/
+
+// My custom styles:
+@import "custom/my-styles.scss";
 
 // Global
 @import "global/accessibility";
