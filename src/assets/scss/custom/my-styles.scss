@@ -1,12 +1,9 @@
-.hero {
-    height: 100vh;
-    background-image: url("wp-content/themes/jewellery/src/assets/images/Kennett-home-1600x700.jpg");
-    background-color: grey
-}
+
 
 .welcome {
     text-align: center;
-    padding-top: 80px
+    // padding-top: 80px;
+    margin: 50px 300px;
 }
 
 
@@ -16,14 +13,13 @@
 }
 
 .about {
-    padding: 120px;
-}
+    margin: 50px 300px;
 
-.about img {
-    height: 500px;
-    width: auto
+    img {
+        height: 200px;
+        width: auto
+    }
 }
-
 .info {
     margin-left: 50px;
     margin-right: 60px;

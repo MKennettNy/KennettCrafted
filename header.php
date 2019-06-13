@@ -15,6 +15,14 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
+		<style>
+		.hero {
+            background-image: url(<?php echo esc_url( get_theme_mod( 'kc_hero_image' ) ); ?>);
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+		</style>
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -47,4 +55,8 @@
 			</div>
 		</nav>
 
+		
+
 	</header>
+
+	

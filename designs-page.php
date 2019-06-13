@@ -14,8 +14,8 @@
     <section class="History">
         <div class='info'>
             <h3>History</h3>
-                <p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
-            </div>
+            <p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
+        </div>
         <img src='wp-content/themes/jewellery/src/assets/images/kennetts-history.jpg'>
     </section>
 

@@ -7,44 +7,57 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
+
+ 
 ?>
 
 <footer class="footer-container">
 	<div class="footer-grid">
-		<?php dynamic_sidebar( 'footer-widgets' ); ?>
-		<section class="logo"> 
-		<img src='wp-content/themes/jewellery/src/assets/images/footer-logo.png'>
+		
+		<section class="footerTop">
+			<div>
+			<img class="logo" src='wp-content/themes/jewellery/src/assets/images/footer-logo.png'> 
+			</div>
+			<div>
+				<ul>
+					<li>Home</li>
+					<li>Designs</li>
+					<li>Services</li>
+				</ul>		 
+			</div>
+			<div>
+				<ul>		
+					<li>About</li>
+					<li>Contact</li>
+				</ul>	
+			</div>
+			<div>
+				<ul>
+					<li>P. 03 366 1232</li>
+					<li>Billens House</li>
+					<li>175 High Street</li>
+					<li>Christchurch 8011</li>
+				</ul>		
+			</div>
+			<div>
+				<ul>		
+					<li>Mon-Fri 9.30am-5.00pm</li>
+					<li>Sat 10.00am-3.00pm</li>
+				</ul>	
+			</div>
 		</section>
-		<section class="menu"> 
-			<ul>
-				<li>Home</li>
-				<li>Designs</li>
-				<li>Services</li>
-				<li>About</li>
-				<li>Contact</li>
-			</ul>
-		</section>
-		<section class="social"> 
-			<ul>
-				<li><img src='wp-content/themes/jewellery/src/assets/images/fb.png'></li>
-				<li><img src='wp-content/themes/jewellery/src/assets/images/insta.png'></li>
-				<li><img src='wp-content/themes/jewellery/src/assets/images/pinterest.png'></li>
-				<li><img src='wp-content/themes/jewellery/src/assets/images/twitter.png'></li>
-			</ul>	
-		</section>
-		<section class="contact">
-			<ul>
-				<li>P. 03 366 1232</li>
-				<li>Billens House</li>
-				<li>175 High Street</li>
-				<li>Christchurch 8011</li>
-			</ul>	
-			<ul>
-				<li>Mon-Fri 9.30am-5.00pm</li>
-				<li>Sat 10.00am-3.00pm</li>
-			</ul>	
-
-		</section>
+				
+		<section class="footerBottom">
+			<div>
+				<p>© 2019 Kennett Crafted Jewels. All Rights Reserved.</p>
+			</div>
+			<div>
+				<img src='wp-content/themes/jewellery/src/assets/images/fb.png'>
+				<img src='wp-content/themes/jewellery/src/assets/images/insta.png'>
+				<img src='wp-content/themes/jewellery/src/assets/images/pinterest.png'>
+				<img src='wp-content/themes/jewellery/src/assets/images/twitter.png'>
+			</div>
+		</section>	
 		</div>
 </footer>
 
