@@ -1,9 +1,23 @@
-
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+  }
+  
 
 .welcome {
     text-align: center;
     // padding-top: 80px;
     margin: 50px 300px;
+}
+
+.callAction {
+    width: 50%;
+    height: 20px;
+    background-color: black;
+    opacity: 0.4;  
 }
 
 
@@ -27,4 +41,8 @@
 
 .footer-container {
     background-color: grey;
+}
+
+.location {
+    width: 100%
 }

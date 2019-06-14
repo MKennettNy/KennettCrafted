@@ -21,7 +21,14 @@
             background-size: cover;
             background-position: center;
             min-height: 100vh;
-        }
+		}
+		
+		.contactForm {
+			background-image: url(<?php echo esc_url( get_theme_mod( 'kc_contact_background' ) ); ?>);
+			background-size: cover;
+            background-position: center;
+		}
+
 		</style>
 	</head>
 	<body <?php body_class(); ?>>

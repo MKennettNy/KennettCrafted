@@ -2,10 +2,6 @@
 
 <section class="hero">
 
-    <div class="callAction">
-        <p>Hello<p>
-    </div>
-
 </section>
 
 <section class="welcome">
