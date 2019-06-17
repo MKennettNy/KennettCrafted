@@ -39,10 +39,16 @@ body {
     margin-right: 60px;
 }
 
-.footer-container {
-    background-color: grey;
+footer.footer-container {
+    background-color: #F0F0F0;
+    margin-top: 0;
 }
 
 .location {
     width: 100%
+}
+
+
+iframe {
+    display:block; 
 }

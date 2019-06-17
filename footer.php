@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 /**
  * The template for displaying the footer
  *
@@ -9,14 +9,13 @@
  */
 
  
-?>
+?> -->
 
 <footer class="footer-container">
 	<div class="footer-grid">
-		
 		<section class="footerTop">
 			<div>
-			<img class="logo" src='wp-content/themes/jewellery/src/assets/images/footer-logo.png'> 
+				<img class="logo" src='wp-content/themes/jewellery/src/assets/images/footer-logo.png'> 
 			</div>
 			<div>
 				<ul>
@@ -58,7 +57,7 @@
 				<img src='wp-content/themes/jewellery/src/assets/images/twitter.png'>
 			</div>
 		</section>	
-		</div>
+	</div>
 </footer>
 
 <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>

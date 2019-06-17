@@ -38,11 +38,5 @@
     </fieldset>
   </form>
 </div>
-
-
-
 <?php
-// get_template_part('template-parts/template-parts/.php');
-
-
 get_footer(); ?>

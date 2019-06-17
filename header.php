@@ -14,6 +14,8 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 		<?php wp_head(); ?>
 		<style>
 		.hero {
@@ -26,7 +28,7 @@
 		.contactForm {
 			background-image: url(<?php echo esc_url( get_theme_mod( 'kc_contact_background' ) ); ?>);
 			background-size: cover;
-            background-position: center;
+			background-position: center;
 		}
 
 		</style>
