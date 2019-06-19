@@ -1,41 +1,58 @@
 <?php get_header(); ?>
 
-<section class="hero">
-
-</section>
-
-<section class="welcome">
-<h1>Welcome to Kennett Crafted Jewels</h1>
-<p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
+<section class="wrImage">
+    <img src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/forever.jpeg">
 </section>
 
 
-<section class="about">
-    <section class="History">
-        <div class='info'>
-            <h3>History</h3>
-                <p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
-            </div>
-        <img src='wp-content/themes/jewellery/src/assets/images/kennetts-history.jpg'>
-    </section>
 
-    <section class="Temporary">
-    <img src='wp-content/themes/jewellery/src/assets/images/kennets-present.jpg'>
-        <div class='info'>
-        <h3>Temporary Reloction</h3>
-        <p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
-        </div>
-    </section>
+<div class="services">
 
-    <section class="Current">
-    <div class='info'>
-        <h3>Current</h3>
-        <p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
+    <h2>Kennett Crafted Jewels offer the following services.</h2>
+    <div>
+        <!-- <h4>ENGAGEMENT & WEDDING RING SPECIALISTS</h4> -->
+        <h4>Engagement & Wedding Ring Specialists</h4>
+        <p>– in house range available along with our bespoke design service.</p>
     </div>
-    <img src='wp-content/themes/jewellery/src/assets/images/kennets-present.jpg'>
-</section>
-</section>
-
+    <div>
+        <!-- <h4>BESPOKE JEWELLERY DESIGN</h4> -->
+        <h4>Bespoke Jewellery Design</h4>
+        <p>– create your unique design with our designer Anne Kennett</p>
+    </div>
+    <div>
+        <!-- <h4>JEWELERY REMODELING</h4> -->
+        <h4>Jewellery Remodeling</h4>
+        <p>– update and reconnect with your precious jewellery</p>
+    </div>
+    <div>
+        <!-- <h4>DUTY FREE PURCHASES</h4> -->
+        <h4>Duty Free Purchases</h4>
+        <p>– GST excluded purchases when departing New Zealand (conditions apply).</p>
+    </div>
+    <div>
+        <!-- <h4>VALUATIONS</h4> -->
+        <h4>Valuations</h4>
+        <p>– quotations available for multiple item discounts,</p>
+    </div>
+    <div>
+        <!-- <h4>JEWELLERY REPAIR</h4> -->
+        <h4>Jewellery Repair</h4>
+        <p>– resizing, rhodium plating, general repairs for all jewellery and silverware.</p>
+    </div>
+    <div>
+        <!-- <h4>WATCH & CLOCK REPAIRS</h4> -->
+        <h4>Watch & Clock Repairs</h4>
+        <p>– minor repairs through to full overhauls.</p>
+    </div>
+    <div>
+        <!-- <h4>INSURANCE QUOTATIONS AND REPLACEMENT</h4> -->
+        <h4>Insurance Quotations And Replacement</h4>
+        <p>– provision of replacement quote for  your insurance company through to supply of replacement of items.</p>
+    </div>
+    <div>
+        <p class="annotation">*All our quotations and design services are complimentary</p>
+    </div>
+</div>
 
 
 <?php

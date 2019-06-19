@@ -3,7 +3,9 @@
 <section class="hero">
 
     <div class="callAction">
-        <p>Hello<p>
+        <p>Looking for an engagement ring?
+        <p>Need wedding rings?</p>
+<p>
     </div>
 
 </section>

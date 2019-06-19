@@ -10,14 +10,6 @@ $wp_customize->add_setting('kc_contact_background', array(
     'default-image' => get_template_directory_uri() . 'wp-content/themes/jewellery/src/assets/images/Kennett-home-1600x700.jpg',
 ));
 
-// $wp_customize->add_control('ce_header_image_control', array(
-//     'type' => 'image-picker',
-//     'section' => 'upc_image',
-//     'settings' => 'upc_image_front_page',
-//     'label' => __('Hero image')
-//     ));
-
-
 $wp_customize->add_control(
     new WP_Customize_Image_Control(
         $wp_customize,

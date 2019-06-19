@@ -1,7 +1,7 @@
 # Browsersync config
 BROWSERSYNC:
   # URL of local development server goes here (ex. http://localsite.dev)
-  url: ""
+  url: "localhost/KennettCrafted"
 
 # Autoprefixer will make sure your CSS works with these browsers
 COMPATIBILITY:
@@ -10,7 +10,7 @@ COMPATIBILITY:
   - "ios >= 7"
   
 # Set to true if you want static asset revisioning, helpful for cache busting
-REVISIONING: false  
+REVISIONING: true 
 
 # Gulp will reference these paths when it copies files
 PATHS:
@@ -26,7 +26,9 @@ PATHS:
     - "node_modules/motion-ui/src"
   # Paths to JavaScript entry points for webpack to bundle modules
   entries:
-    - "src/assets/js/app.js"
+     - "src/assets/js/lib/app.js"
+     - "/node_modules/jquery/dist/jquery.js"
+     - "/node_modules/owl.carousel/dist/owl.carousel.min.js"
   # Paths for the package task to include/exclude in .zip archive
   package:
     - "**/*"
@@ -36,7 +38,7 @@ PATHS:
     - "!**/codesniffer.ruleset.xml"
     - "!**/composer.json"
     - "!**/composer.lock"
-    - "!**/config.yml"
+    - "!**/config.yml" 
     - "!**/config.default.yml"
     - "!**/gulpfile.babel.js"
     - "!**/package.json"
