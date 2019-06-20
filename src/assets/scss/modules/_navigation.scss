@@ -3,7 +3,7 @@
 .site-title-bar {
   @include hide-for(medium);
 }
-//
+
 .desktop-menu,
 .site-navigation .top-bar-left {
   @include show-for(medium);
@@ -19,15 +19,31 @@
   @include clearfix;
 }
 
-.nav-previous {
-  float:left;
-}
+// .nav-previous {
+//   float:left;
+// }
 
-.nav-next {
-  float:right;
-}
+// .nav-next {
+//   float:right;
+// }
 
 
-.site-navigation, .top-bar {
-  background-color: #333333
+.site-navigation, .top-bar, {
+  background-color: #333333;
+  padding: 7px 90px;
+
+  a {
+    background-color: #333333;
+    color: white;
+
+    a::after {
+      background-color: #333333;
+      color: white;
+    }
+  }
+}  
+
+.is-active {
+  background: none;
+  color: white
 }
