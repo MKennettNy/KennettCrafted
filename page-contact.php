@@ -14,14 +14,16 @@
 		
 			<section class="section2 clearfix">
 				<div class="col2 column1 first">
-					<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="sec2map" style='overflow:hidden;height:550px;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+					<div class="resp-container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.4067347963614!2d172.63929325150133!3d-43.53556277902306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318a2280fe7491%3A0xfa4a25ea7d24f8c6!2sKennett+Crafted+Jewels!5e0!3m2!1sen!2snz!4v1561098119532!5m2!1sen!2snz" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 				</div>
 				<div class="col2 column2 last">
 					<div class="sec2innercont">
 						<div class="sec2addr">
-							<p>45 BC, a Latin professor at Hampden-Sydney College in Virginia</p>
-							<p><span class="collig">Phone :</span> +91 976885083</p>
-							<p><span class="collig">Email :</span> vivek.mengu016@gmail.com</p>
+							<p>Billens House, 175 High Street, Christchurch 8011</p>
+							<p><span class="collig">Phone :</span> 64 3 366 1232</p>
+							<p><span class="collig">Email :</span> craftedjewels@kennett.net.nz</p>
 							<p><span class="collig">Fax :</span> +91 9768850839</p>
 						</div>
 					</div>

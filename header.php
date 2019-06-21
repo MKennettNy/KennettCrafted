@@ -35,8 +35,7 @@
 		<div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle(); ?>>
 			<div class="title-bar-left">
 				<button aria-label="<?php _e( 'Main Menu', 'foundationpress' ); ?>" class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
-				<span class="site-mobile-title title-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<img class="logoMH" src='wp-content/themes/jewellery/src/assets/images/logo1.png'>
 				</span>
 			</div>
 		</div>
@@ -44,7 +43,7 @@
 		<nav class="site-navigation top-bar" role="navigation" id="<?php foundationpress_mobile_menu_id(); ?>">
 			<div class="top-bar-left">
 				<div class="site-desktop-title top-bar-title">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<img class="logoH" src='wp-content/themes/jewellery/src/assets/images/logo1.png'>
 				</div>
 			</div>
 			<div class="top-bar-right">

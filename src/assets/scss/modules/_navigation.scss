@@ -36,14 +36,55 @@
     background-color: #333333;
     color: white;
 
-    a::after {
-      background-color: #333333;
-      color: white;
-    }
+    // a::after {
+    //   background-color: #333333;
+    //   color: white;
+    // }
   }
 }  
 
-.is-active {
-  background: none;
-  color: white
+// .is-active {
+//   background: none;
+//   color: white
+// }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+  background-color: #333333;
+}
+
+.dropdown.menu > li.is-active > a {
+  background: #333333;
+  color: white;
+}
+
+.title-bar {
+  background: #333333;
+  color: white;
+
+  a {
+    color: white;
+  }
+}
+
+.logoH {
+  height: 40px;
+  width: auto;
+}
+
+.logoMH {
+  padding-left: 15px;
+  height: 40px;
+  width: auto;
+}
+
+.mobile-off-canvas-menu {
+  background: #333333;
+  
+  a {
+    color: white;
+  }
+}
+
+.menu .is-active > a {
+  background: #333333;
 }

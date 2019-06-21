@@ -58,7 +58,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 
 .section1 h1 {
 	font-size: 40px;
-	color: #A44DD8;
+	color: #333333;
 	font-weight: normal;
 }
 
@@ -108,7 +108,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	padding: 15px 40px;
     color: #fff;
     border: 0;
-    background: #A44DD8;
+    background: #333333;
     font-size: 16px;
     text-transform: uppercase;
     margin: 7px 0;
@@ -120,7 +120,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
     margin-top: 30px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 19px;
-    color: #A44DD8;
+    color: #333333;
 }
 
 /* @media querries */
@@ -168,4 +168,11 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	.section1 h1 {
 		font-size: 28px;
 	}	
+}
+
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    // padding-top: 56.25%;
 }
