@@ -58,7 +58,7 @@
   display: flex;
   justify-content: space-between;
   
-  img {
+  .social {
     height: 30px;
     width: auto;
   }
@@ -75,6 +75,37 @@
     margin: 0;
     padding: 0;
     color: #8C8C8C
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-grid {
+    padding: 0;
+  
+  .footerTop, .footerBottom {
+    // @include xy-cell();
+    // @include breakpoint(large)
+    //   @include xy-cell(auto);
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      font-size: 10px;
+      
+      .logo {
+        height: 20px;
+        width: auto;
+      }
+    
+      .social {
+        height: 20px;
+        width: auto;
+      }
+  
+    } 
+
   }
 
 }

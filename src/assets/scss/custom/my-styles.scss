@@ -1,10 +1,10 @@
-// body {
-//     font-family: "Roboto", Helvetica, Arial, sans-serif;
-//     font-weight: 100;
-//     font-size: 12px;
-//     line-height: 30px;
-//     color: #777;
-//   }
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+  }
   
 
 .welcome {
@@ -14,6 +14,8 @@
 }
 
 .hero {
+    
+    
     p {
     width: 50%;
     height: 20px;
@@ -72,39 +74,7 @@ footer.footer-container {
 // }
 
 
-.services {
-  padding: 0 0 0 200px; 
 
-  h2 {
-      padding: 20px 20px 20px 0;
-  }
-
-  h4 {
-    margin-bottom: 0;
-  }
-
-  .annotation {
-      font-size: 10px;
-  }
-}
-
-#sp-wp-carousel-free-id-65 {
-    margin: 80px 10%;
-}
-
-
-.erInfo, .wrInfo  {
-    margin: 0 10%;
-    text-align: center;
-    
-    h2 {
-        margin-top: 50px;
-    }
-
-    p {
-        margin-top: 50px;
-    }
-}
 
 .wrImage {
 
@@ -115,5 +85,103 @@ footer.footer-container {
 }
 
 
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .welcome {
+        text-align: center;
+        // padding-top: 80px;
+        margin: 50px 100px;
+
+        h1 {
+            font-size: 30px
+        }
+    }
+    
+    .History, .Temporary, .Current {
+        display: flex;
+        padding: 30px;
+
+        h3 {
+            font-size: 20px
+        }
+
+        p {
+            font-size: 10px
+        }
+    }
+    
+    .about {
+        margin: 50px 85px;
+        
+    
+        img {
+            height: 200px;
+            width: auto
+        }
+    }
+    .info1, .info3 {
+        margin: 8px 40px 0 0;
+        margin-right: 60px;
+        text-align: justify;
+    }
+    
+    .info2 {
+        margin: 8px 0 50px 0;
+        margin-left: 60px;
+        text-align: justify;
+    }
+    
+  }
+
+  #sp-wp-carousel-free-id-65 {
+    margin: 80px 10%;
+}
 
 
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    // front page
+    .welcome {
+        text-align: center;
+        // padding-top: 80px;
+        margin: 10px 10px;
+    }
+
+    .about {
+        margin: 10px 10px;
+        display: block
+    }
+
+    .History, .Temporary, .Current {
+        display: block;
+        padding: 0;
+        justify-content: center;
+        padding: 20px;
+
+
+        img {
+            height: auto;
+        }
+    }
+
+    .info1, .info3, .info2 {
+        margin: 8px 40px 0 0;
+        margin-right: 0px;
+        text-align: justify;
+    
+        h3 {
+            text-align: center;
+        }
+    }
+  }

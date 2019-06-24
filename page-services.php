@@ -8,7 +8,7 @@
 
 <div class="services">
 
-    <h2>Kennett Crafted Jewels offer the following services.</h2>
+    <h2>Kennett Crafted Jewels offers the following services.</h2>
     <div>
         <!-- <h4>ENGAGEMENT & WEDDING RING SPECIALISTS</h4> -->
         <h4>Engagement & Wedding Ring Specialists</h4>

@@ -51,10 +51,10 @@
 				<p>© 2019 Kennett Crafted Jewels. All Rights Reserved.</p>
 			</div>
 			<div>
-				<img src='wp-content/themes/jewellery/src/assets/images/fb.png'>
-				<img src='wp-content/themes/jewellery/src/assets/images/insta.png'>
-				<img src='wp-content/themes/jewellery/src/assets/images/pinterest.png'>
-				<img src='wp-content/themes/jewellery/src/assets/images/twitter.png'>
+				<img class="social" src='wp-content/themes/jewellery/src/assets/images/fb.png'>
+				<img class="social" src='wp-content/themes/jewellery/src/assets/images/insta.png'>
+				<img class="social" src='wp-content/themes/jewellery/src/assets/images/pinterest.png'>
+				<img class="social" src='wp-content/themes/jewellery/src/assets/images/twitter.png'>
 			</div>
 		</section>	
 	</div>

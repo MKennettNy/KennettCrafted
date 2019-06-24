@@ -24,11 +24,10 @@
 							<p>Billens House, 175 High Street, Christchurch 8011</p>
 							<p><span class="collig">Phone :</span> 64 3 366 1232</p>
 							<p><span class="collig">Email :</span> craftedjewels@kennett.net.nz</p>
-							<p><span class="collig">Fax :</span> +91 9768850839</p>
 						</div>
 					</div>
 					<div class="sec2contactform">
-						<h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
+						<!-- <h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3> -->
 						<form action="">
 							<div class="clearfix">
 								<input class="col2 first" type="text" placeholder="FirstName">
