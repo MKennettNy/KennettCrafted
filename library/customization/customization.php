@@ -2,7 +2,8 @@
 function ce_customize_register($wp_customize){
     
     require_once get_template_directory() . '/library/customization/hero-image.php';
-    require_once get_template_directory() . '/library/customization/contact-background.php';
+    require_once get_template_directory() . '/library/customization/wedding-rings-info.php';
+    require_once get_template_directory() . '/Library/customization/engagement-rings-info.php';
     
     
 }

@@ -20,8 +20,9 @@
             background-image: url(<?php echo esc_url( get_theme_mod( 'kc_hero_image' ) ); ?>);
             background-size: cover;
             background-position: center;
-            min-height: 100vh;
+			min-height: 100vh;
 		}
+		
 		
 	</style>
 	</head>
@@ -43,7 +44,7 @@
 		<nav class="site-navigation top-bar" role="navigation" id="<?php foundationpress_mobile_menu_id(); ?>">
 			<div class="top-bar-left">
 				<div class="site-desktop-title top-bar-title">
-				<img class="logoH" src='wp-content/themes/jewellery/src/assets/images/logo1.png'>
+					<img class="logoH" src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/logo1.png">
 				</div>
 			</div>
 			<div class="top-bar-right">

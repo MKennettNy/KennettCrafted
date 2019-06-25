@@ -15,19 +15,19 @@
 	<div class="footer-grid">
 		<section class="footerTop">
 			<div>
-				<img class="logo" src='wp-content/themes/jewellery/src/assets/images/footer-logo.png'> 
+				<img class="social" src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/footer-logo.png">
 			</div>
 			<div>
 				<ul>
-					<li>Home</li>
-					<li>Designs</li>
-					<li>Services</li>
+					<a href="http://localhost/KennettCrafted/"><li>Home</li></a>
+					<a href="http://localhost/KennettCrafted/"><li>Designs</li></a>
+					<a href="http://localhost/KennettCrafted/"><li>Services</li></a>
 				</ul>		 
 			</div>
 			<div>
 				<ul>		
-					<li>About</li>
-					<li>Contact</li>
+					<a href="http://localhost/KennettCrafted/"><li>About</li></a>
+					<a href="http://localhost/KennettCrafted/"><li>Contact</li></a>
 				</ul>	
 			</div>
 			<div>
@@ -51,10 +51,10 @@
 				<p>© 2019 Kennett Crafted Jewels. All Rights Reserved.</p>
 			</div>
 			<div>
-				<img class="social" src='wp-content/themes/jewellery/src/assets/images/fb.png'>
-				<img class="social" src='wp-content/themes/jewellery/src/assets/images/insta.png'>
-				<img class="social" src='wp-content/themes/jewellery/src/assets/images/pinterest.png'>
-				<img class="social" src='wp-content/themes/jewellery/src/assets/images/twitter.png'>
+				<a href="https://www.facebook.com/KennettCraftedJewels/"><img class="social" src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/fb.png"></a>
+				<a href="https://www.instagram.com/kennettcraftedjewels/"><img class="social" src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/insta.png"></a>
+				<a href="https://pl.pinterest.com/kennettjewels/"><img class="social" src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/pinterest.png"></a>
+				<a href="https://twitter.com/kennettjewels/"><img class="social" src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/twitter.png"></a>
 			</div>
 		</section>	
 	</div>

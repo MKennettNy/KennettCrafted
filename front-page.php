@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
 <section class="hero">
-    <p>Looking for an engagement ring?
-    <p>Need wedding rings?</p>
+    <div class="cta">
+        <p>Looking for an engagement <span>ring?</span></p>
+        <p>Need a wedding <span>ring?</span></p>
     </div>
 
 </section>
@@ -31,12 +32,12 @@
     </section>
 
     <section class="Current">
-    <div class='info3'>
-        <h3>Current</h3>
-        <p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
-    </div>
-    <img src='wp-content/themes/jewellery/src/assets/images/kennets-present.jpg'>
-</section>
+        <div class='info3'>
+            <h3>Current</h3>
+            <p>Kennett Crafted Jewels is a jewellery boutique with over 130 years experience spanning four generations. From 1880 to the present we have be a leading retailer selling and designing engagement and wedding rings, diamond and precious stone jewellery, leading brand watches and offer full repair and valuation services. Kennett Crafted Jewels takes pride in their integrity, experience and service.<p>
+        </div>
+        <img src='wp-content/themes/jewellery/src/assets/images/kennets-present.jpg'>
+    </section>
 </section>
 
 

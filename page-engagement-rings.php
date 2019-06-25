@@ -1,11 +1,18 @@
 <?php get_header(); ?>
 
 <section class="erImage">
+    <img src="http://localhost/KennettCrafted/wp-content/uploads/2019/06/engagementRings.jpg">
 </section>
 
 <section class="erInfo">
     <h2>Engagement Rings</h2>
-    <p>Kennett Crafted Jewels is a Christchurch based jewellery business specializing in the design and crafting of engagement rings.  Our jewellery designer, Anne Kennett, has a passion for not only diamonds but also the many beautiful coloured. Our bespoke design service allows you to be intimately involved throughout the exciting process of designing and crafting your own engagement ring to suit your budget</p>
+    <?php
+    $blurb = get_theme_mod('kc_er_info');
+    if($blurb || is_customize_preview()):
+    // echo wpautop($blurb);
+    echo $blurb;
+    endif;
+    ?>
 </section>
 
 

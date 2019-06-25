@@ -1,30 +1,40 @@
 body {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-weight: 100;
-    font-size: 12px;
+    // font-size: 12px;
     line-height: 30px;
-    color: #777;
+    color: black;
   }
   
+
+  div.cta {
+      color: white;
+      font-size: 40px;
+      width: 50%;
+      height: 135px;
+      background-color: black;
+      opacity: 0.4; 
+      position: absolute;
+      top: 50%;
+      text-align: right;
+      
+      span{
+          color: grey
+      }
+
+      p {
+         margin: 0;
+         margin-right: 10px;
+      }
+         
+
+  }
 
 .welcome {
     text-align: center;
     // padding-top: 80px;
     margin: 50px 300px;
 }
-
-.hero {
-    
-    
-    p {
-    width: 50%;
-    height: 20px;
-    background-color: black;
-    opacity: 0.4; 
-    }
-}
-
-
 
 .History, .Temporary, .Current {
     display: flex;
@@ -57,26 +67,17 @@ footer.footer-container {
     margin-top: 0;
 }
 
-// .map-responsive{
-//     overflow:hidden;
-//     // padding-bottom:56.25%;
-//     position:relative;
-//     height:0;
-//     margin: 0 27%
-// }
-// .map-responsive iframe{
-//     left:0;
-//     top:0;
-//     height:100%;
-//     width:100%;
-//     position:absolute;
-//     display: block
-// }
+.erInfo {
+    text-align: center;
+    padding: 0 45px;
 
+    h2, p {
+        padding-top: 10px;
+    }
 
+}
 
-
-.wrImage {
+.wrImage, .erImage {
 
     img {
         width: 100%;
@@ -185,3 +186,47 @@ footer.footer-container {
         }
     }
   }
+
+
+
+
+  .services {
+    padding: 0 0 0 200px; 
+  
+    h2 {
+        padding: 20px 20px 20px 0;
+
+    }
+  
+    h4 {
+      margin-bottom: 0;
+    }
+  
+      }
+  
+  #sp-wp-carousel-free-id-65 {
+      margin: 80px 10%;
+  }
+  
+  
+@media (min-width: 320px) and (max-width: 767px) {
+    .services {
+        padding-left: 10px; 
+        // text-align: center;
+        margin: 0 ;
+        
+        h2 {
+            font-size: 15px
+          }
+
+        h4 {
+            font-size: 10px
+          }
+
+        p {
+            font-size: 5px
+        }
+
+    }
+
+}
