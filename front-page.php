@@ -2,19 +2,19 @@
 
 <section class="hero">
     <div class="cta">
-        <p>Looking for an engagement <span>ring?</span></p>
-        <p>Need a wedding <span>ring?</span></p>
+        <p>Looking for an engagement <span><a href="http://localhost:3000/KennettCrafted/designs/engagement-rings/">ring?</a></span></p>
+        <p>Need a wedding <span><a href="http://localhost:3000/KennettCrafted/designs/wedding-rings/">ring?</a></span></p>
     </div>
 
 </section>
 
-<section class="welcome">
+<section class="welcome" 
 <h1>Welcome to Kennett Crafted Jewels</h1>
 <p>With a history spanning over 130 years Kennett Crafted Jewels has a unique understanding of what makes fine jewellery and how to provide premium service.<p>
 </section>
 
 
-<section class="about">
+<section class="about" #id="welcome">
     <section class="History">
         <div class='info1'>
             <h3>History</h3>

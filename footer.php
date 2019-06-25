@@ -21,13 +21,13 @@
 				<ul>
 					<a href="http://localhost/KennettCrafted/"><li>Home</li></a>
 					<a href="http://localhost/KennettCrafted/"><li>Designs</li></a>
-					<a href="http://localhost/KennettCrafted/"><li>Services</li></a>
+					<a href="http://localhost:3000/KennettCrafted/services/"><li>Services</li></a>
 				</ul>		 
 			</div>
 			<div>
 				<ul>		
-					<a href="http://localhost/KennettCrafted/"><li>About</li></a>
-					<a href="http://localhost/KennettCrafted/"><li>Contact</li></a>
+					<a href="http://localhost/KennettCrafted/#welcome"><li>About</li></a>
+					<a href="http://localhost:3000/KennettCrafted/contact/"><li>Contact</li></a>
 				</ul>	
 			</div>
 			<div>
