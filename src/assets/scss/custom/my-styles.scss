@@ -93,6 +93,31 @@ footer.footer-container {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
+    div.cta {
+        color: white;
+        font-size: 25px;
+        width: 55%;
+        height: 90px;
+    }
+
+    .services {
+        padding: 0 0 0 20px; 
+      
+        h2 {
+            padding: 20px 20px 20px 0;
+    
+        }
+      
+        h4 {
+          margin-bottom: 0;
+        }
+      
+          }
+      
+      #sp-wp-carousel-free-id-65 {
+          margin: 80px 10%;
+      }
+
     .welcome {
         text-align: center;
         // padding-top: 80px;
@@ -191,7 +216,7 @@ footer.footer-container {
 
 
   .services {
-    padding: 0 0 0 200px; 
+    padding: 0 0 0 100px; 
   
     h2 {
         padding: 20px 20px 20px 0;
@@ -216,17 +241,37 @@ footer.footer-container {
         margin: 0 ;
         
         h2 {
-            font-size: 15px
+            font-size: 16px
           }
 
         h4 {
-            font-size: 10px
+            font-size: 13px
           }
 
         p {
-            font-size: 5px
+            font-size: 10px
         }
 
+    }
+
+
+    div.cta {
+        // color: white;
+        font-size: 15px;
+        width: 75%;
+        height: 55px;
+        text-align: right;
+        
+        span{
+            color: grey
+        }
+  
+        p {
+           margin: 0;
+           margin-right: 10px;
+        }
+           
+  
     }
 
 }

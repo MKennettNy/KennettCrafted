@@ -6,9 +6,9 @@
         <p>Need a wedding <span><a href="http://localhost:3000/KennettCrafted/designs/wedding-rings/">ring?</a></span></p>
     </div>
 
-</section>
+</section>  
 
-<section class="welcome" 
+<section class="welcome">
 <h1>Welcome to Kennett Crafted Jewels</h1>
 <p>With a history spanning over 130 years Kennett Crafted Jewels has a unique understanding of what makes fine jewellery and how to provide premium service.<p>
 </section>

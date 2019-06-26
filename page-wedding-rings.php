@@ -18,7 +18,7 @@
 </section>
 
 
-<?php echo do_shortcode('[sp_wpcarousel id="65"]'); ?>
+<?php echo do_shortcode('[sp_wpcarousel id="81"]'); ?>
 
 
 
